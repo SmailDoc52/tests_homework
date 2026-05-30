@@ -4,7 +4,7 @@
 
 ## Структура проекта
 - `acquaintance.py` и `tests/test_acquaintance.py`: Задача на сопоставление пар из списков.
-- `get_race_winner.py` и `tests/test_get_race_winner.py`: Задача на определение победителя гонки по дистанции.
+- `get_race_winner.py` и `tests/test_get_race_winner.py`: Задача на определение победителя гонки.
 - `winners_check.py` и `tests/test_winners_check.py`: Задача на фильтрацию списка чеков.
 - `ya_disk.py`: Класс `YaDiskManager` для взаимодействия с Яндекс.Диск API.
 - `tests/test_ya_disk.py`: Набор тестов для `YaDiskManager`, включая мокирование сетевых ошибок.
