@@ -3,11 +3,11 @@
 Проект включает в себя реализацию unit-тестов для базовых алгоритмов на Python и автоматизированное тестирование API Яндекс.Диска.
 
 ## Структура проекта
-- `acquaintance.py` / `test_acquaintance.py`: Задача на сопоставление пар из списков.
-- `get_race_winner.py` / `test_get_race_winner.py`: Задача на определение победителя гонки по дистанции.
-- `winners_check.py` / `test_winners_check.py`: Задача на фильтрацию списка чеков.
+- `acquaintance.py` и `tests/test_acquaintance.py`: Задача на сопоставление пар из списков.
+- `get_race_winner.py` и `tests/test_get_race_winner.py`: Задача на определение победителя гонки по дистанции.
+- `winners_check.py` и `tests/test_winners_check.py`: Задача на фильтрацию списка чеков.
 - `ya_disk.py`: Класс `YaDiskManager` для взаимодействия с Яндекс.Диск API.
-- `test_ya_disk.py`: Набор тестов для `YaDiskManager`, включая мокирование сетевых ошибок.
+- `tests/test_ya_disk.py`: Набор тестов для `YaDiskManager`, включая мокирование сетевых ошибок.
 - `.env.example`: Шаблон файла конфигурации для хранения токенов.
 - `requirements.txt`: Зависимости проекта.
 
